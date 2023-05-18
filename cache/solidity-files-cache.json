@@ -1,0 +1,272 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "artifacts",
+    "build_infos": "artifacts/build-info",
+    "sources": "contracts",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "node_modules"
+    ]
+  },
+  "files": {
+    "contracts/LockupPool.sol": {
+      "lastModificationDate": 1681369797710,
+      "contentHash": "ee082c7dd6256aa0e10ecb4636b01b9c",
+      "sourceName": "contracts/LockupPool.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "node_modules/@openzeppelin/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "=0.8.18",
+      "artifacts": {
+        "LockupPool": {
+          "0.8.18+commit.87f61d96.Darwin.appleclang": "LockupPool.sol/LockupPool.json"
+        }
+      }
+    },
+    "contracts/LockupPoolsFactory.sol": {
+      "lastModificationDate": 1681369763856,
+      "contentHash": "f15c6946cf9a16be6e89e61793fcf086",
+      "sourceName": "contracts/LockupPoolsFactory.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/LockupPool.sol",
+        "node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "node_modules/@openzeppelin/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "=0.8.18",
+      "artifacts": {
+        "LockupPoolsFactory": {
+          "0.8.18+commit.87f61d96.Darwin.appleclang": "LockupPoolsFactory.sol/LockupPoolsFactory.json"
+        }
+      }
+    },
+    "node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1681333179145,
+      "contentHash": "834a0dde221759af42b030253315b086",
+      "sourceName": "node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "node_modules/@openzeppelin/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.18+commit.87f61d96.Darwin.appleclang": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
+    "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1681333180721,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20": {
+          "0.8.18+commit.87f61d96.Darwin.appleclang": "IERC20.sol/IERC20.json"
+        }
+      }
+    },
+    "node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1681333180728,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20Metadata": {
+          "0.8.18+commit.87f61d96.Darwin.appleclang": "IERC20Metadata.sol/IERC20Metadata.json"
+        }
+      }
+    },
+    "node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1681333178741,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "node_modules/@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Context": {
+          "0.8.18+commit.87f61d96.Darwin.appleclang": "Context.sol/Context.json"
+        }
+      }
+    }
+  }
+}
